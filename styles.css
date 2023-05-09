@@ -1,0 +1,99 @@
+/* CSS code for the seats reservation page */
+
+form {
+  margin: 0 auto;
+  width: 50%;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.seat {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #bbb;
+  margin: 5px;
+  border-radius: 5px;
+}
+.seat.available {
+  background-color: #8bc34a;
+  cursor: pointer;
+}
+.seat.booked {
+  background-color: #f44336;
+}
+
+/* CSS code for the home page */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  background-color: #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: #333;
+  font-weight: bold;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+}
+
+/* CSS code for the contact info HTML page */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+ul {
+  list-style: none;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 0;
+}
+
+li {
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
